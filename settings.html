@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smoelentrainer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>	
+	<h1 class="text-center">Settings</h1>
+	<form id="formSettings">
+	  	<div class="col-lg-3 col-sm-6 mx-auto align-items-center">
+	    	<div class="col-auto my-1">
+	      		<label class="mr-sm-2" for="people">Amount of different people:</label>
+	      		<select name="people" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+	        		<option value="5">5</option>
+	        		<option value="6">6</option>
+	        		<option value="7">7</option>
+	        		<option value="8">8</option>
+	        		<option value="9">9</option>
+	        		<option value="10">10</option>
+	        		<option selected value="11">11</option>
+	      		</select>
+	      		<label class="mr-sm-2" for="themselect">Select the theme:</label>
+	      		<select name="themeselect" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+	        		<option selected value="standard">Standard</option>
+	        		<option value="horizontal">Horizontal</option>
+	        		<option value="vertical">Vertical</option>
+	      		</select>
+	    	</div>
+	    	<div class="col-auto my-1">
+	      		<div class="custom-control custom-checkbox mr-sm-2 p-0">
+	      			<label class="mr-sm-2" for="time">Time:</label>
+	        		<input type="number" id="tentacles" name="time" value="120"
+       					min="30" max="180">
+	      		</div>
+	    	</div>
+	    	
+	    	<div class="col-auto my-1">
+	      		<button id="save" type="submit" class="btn btn-danger">Save</button>
+	    	</div>
+	  	</div>
+	</form>
+<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>

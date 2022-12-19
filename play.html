@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="row justify-content-between col-11 mx-auto">
+		<h1 class="col-4 p-0">Score: <span id="scoreCounter">0</span></h1>
+		<h1 class="col-4 p-0 text-center"> <span id="timer"></span></h1>
+		<h1 class="col-4 p-0 text-right">Tries: <span id="triesCounter">0</span></h1>
+		
+	</section>
+	<section class="row justify-content-between mx-auto mb-5 col-11">
+		<div class="col-12 p-0 mx-auto bg-dark justify-content-center">
+			<span id="invisible"class="d-none">&nbsp;</span>
+			<div id="timerBar" class="bg-danger col-12"><div id="progress" class="p-0 col-12 d-inline-block"></div></div>
+		</div>
+
+		
+		<div id="divImg" class="col-6 row mx-auto">
+			<img id="img-0" class="w-25 button d-block" src="">
+			<img id="img-1" class="w-25 button d-block" src="">
+			<img id="img-2" class="w-25 button d-block" src="">
+			<img id="img-3" class="w-25 button d-block" src="">
+			<img id="img-4" class="w-25 button d-block" src="">
+			<img id="img-5" class="w-25 button d-block" src="">
+			<img id="img-6" class="w-25 button d-block" src="">
+			<img id="img-7" class="w-25 button d-block" src="">
+			<img id="img-8" class="w-25 button d-block" src="">
+			<img id="img-9" class="w-25 button d-block" src="">
+			<img id="img-10" class="w-25 button d-block" src="">
+		</div>
+		<div id="divBtn" class="col-6 row mx-auto">
+			<a id="btn-0" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-1" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-2" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-3" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-4" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-5" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-6" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-7" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-8" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-9" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+			<a id="btn-10" class="button-2 w-25 d-block bg-danger d-flex flex-wrap align-content-center justify-content-center"></a>
+		</div>
+	</section>
+	<button id="endingBtn" class="btn btn-danger d-block mx-auto mb-5">Naar Hoofdmenu</button>
+
+
+	<script type="text/javascript" src="play.js"></script>
+</body>
+</html>
